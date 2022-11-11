@@ -1,0 +1,54 @@
+body::-webkit-scrollbar {
+    width: 15px;               /* largura da barra */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: black;        /* plano de fundo da brra */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #8A2BE2;    /* cor da barra */
+    border-radius: 20px;       /* arredondar borda */
+  }
+
+
+
+
+
+
+
+
+.imagem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem ;
+}
+.texto{
+    overflow-wrap: break-word;
+    font-size: 40px;
+    width: 2000px;
+    color: white;
+    font-family: 'Patua One', cursive;
+}
+.roxo{
+    color:#8A2BE2;
+}
+.cadastro{
+    font-family:'Teko', sans-serif;
+    font-size: 50px;
+    padding: 50px;
+    width: 50rem;
+    background-color: black;
+    color:#8A2BE2 ;
+    border: 1px solid #8A2BE2;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.cadastro:hover{
+    color: white;
+    background-color:#8A2BE2 ;
+    cursor: pointer;
+    text-decoration: none ;
+}
+

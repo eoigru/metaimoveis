@@ -1,0 +1,60 @@
+.topo{
+  
+    height: 100px;
+    width: 100px;
+    background-color: #8A2BE2;
+    bottom: 123px;
+    right: 60px;
+    border-radius: 20px;
+    font-size: 60px;
+    color: black;
+    position: fixed;
+    cursor: pointer;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15rem ;
+    
+}
+table{
+    color:white ;
+    font-size: 30px;
+
+}
+td{
+    padding: 10px;
+    font-family: 'Patua One', cursive;
+}
+.espaço{
+    width: 100px;
+}
+.direitos{
+    width: 100%;
+    background-color:#8A2BE2 ;
+    text-align: center;
+    color: white;
+    font-family:'Teko', sans-serif;
+    font-size: 50px;
+    margin-top: 10rem;
+}
+.redesocial{
+    font-family:'Teko', sans-serif;
+    font-size: 50px;
+    padding: 10px;
+    width: 20rem;
+    background-color:#8A2BE2 ;
+    color: white ;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.redesocial:hover{
+    color: white;
+    background-color:black ;
+    cursor: pointer;
+    text-decoration: none ;
+}

@@ -11,13 +11,6 @@ body::-webkit-scrollbar {
     border-radius: 20px;       /* arredondar borda */
   }
 
-
-
-
-
-
-
-
 .imagem{
     display: flex;
     align-items: center;
@@ -26,8 +19,8 @@ body::-webkit-scrollbar {
 }
 .texto{
     overflow-wrap: break-word;
-    font-size: 40px;
-    width: 2000px;
+    font-size: 25px;
+    width: 1000px;
     color: white;
     font-family: 'Patua One', cursive;
 }
@@ -36,8 +29,8 @@ body::-webkit-scrollbar {
 }
 .cadastro{
     font-family:'Teko', sans-serif;
-    font-size: 50px;
-    padding: 50px;
+    font-size: 30px;
+    padding: 40px;
     width: 50rem;
     background-color: black;
     color:#8A2BE2 ;

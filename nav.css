@@ -17,7 +17,7 @@ body{
     background-color: black;
 }
 .horizontal-menu{
-    background: black;
+    background: black ;
     display: inline-block;
     width: 100%;
     position:sticky;
@@ -35,9 +35,9 @@ body{
     border: 5px solid #8A2BE2;
     border-radius: 50px;
     display: inline-block;
-    font-size: 30px;
+    font-size: 20px;
     font-family:'Teko', sans-serif;
-    padding: 20px;
+    padding: 10px;
     margin: 15px;
     text-transform: uppercase;
     position: relative;
@@ -71,7 +71,7 @@ body{
     box-sizing: border-box;
     background: black;
     position: absolute;
-    top: 67px;
+    top: 32px;
     left: 50%;
     transform: translateX(-50%);
     -moz-transform: translateX(-50%);

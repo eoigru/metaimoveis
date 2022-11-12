@@ -8,18 +8,17 @@ body::-webkit-scrollbar {
   
   body::-webkit-scrollbar-thumb {
     background-color: #8A2BE2;    /* cor da barra */
-    border-radius: 20px;       /* arredondar borda */
   }
 
 .imagem{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 5rem ;
+    margin-top: 0rem ;
 }
 .texto{
     overflow-wrap: break-word;
-    font-size: 25px;
+    font-size: 20px;
     width: 1000px;
     color: white;
     font-family: 'Patua One', cursive;

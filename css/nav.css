@@ -17,7 +17,7 @@ body{
     background-color: black;
 }
 .horizontal-menu{
-    background: black ;
+    background:  ;
     display: inline-block;
     width: 100%;
     top: 0;
@@ -69,7 +69,7 @@ body{
     box-sizing: border-box;
     background: black;
     position: absolute;
-    top: 49px;
+    top: 47px;
     left: 50%;
     transform: translateX(-50%);
     -moz-transform: translateX(-50%);

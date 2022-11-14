@@ -37,7 +37,7 @@ td{
     color: white;
     font-family:'Teko', sans-serif;
     font-size: 30px;
-    margin-top: 10rem;
+    margin-top: 0rem;
 }
 .redesocial{
     font-family:'Teko', sans-serif;
@@ -57,4 +57,15 @@ td{
     background-color:black ;
     cursor: pointer;
     text-decoration: none ;
+}
+@media (max-width: 320px){
+    table{
+        display: none;
+    }
+    .topo{
+        display: none;
+    }
+    .direitos{
+        width: 100%;
+    }
 }

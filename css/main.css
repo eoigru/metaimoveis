@@ -44,3 +44,27 @@ body::-webkit-scrollbar {
     text-decoration: none ;
 }
 
+@media (max-width: 320px){
+  html{
+    padding: 0%;
+    margin: 0%;
+  }
+  .imagem{
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left:40px;
+  }
+  .texto{
+    width: 80%;
+    font-size: 16px;
+  }
+  .cadastro{
+    width: 100%;
+  }
+  .meta{
+    margin-left: 1px;
+  }
+  
+}

@@ -1,0 +1,28 @@
+.temporada{
+    width: 120px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: 40px;
+    background-color: ;
+    color: black;
+    border: 1px  solid black;
+    border-radius: 10px;
+}
+.xdata{
+    background-color: black;
+    color: white;
+    padding: 16px;
+    border-radius: 10px;
+    font-family: teko;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.slider > .slider-content{
+    display: none;
+}
+hr{
+    display: none;
+}
+.slider{
+    display: none;
+    }

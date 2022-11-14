@@ -58,14 +58,4 @@ td{
     cursor: pointer;
     text-decoration: none ;
 }
-@media (max-width: 320px){
-    table{
-        display: none;
-    }
-    .topo{
-        display: none;
-    }
-    .direitos{
-        width: 100%;
-    }
-}
+

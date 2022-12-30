@@ -9,20 +9,30 @@
     border-radius: 10px;
 }
 .xdata{
-    background-color: black;
+    background-color:black;
     color: white;
     padding: 16px;
     border-radius: 10px;
     font-family: teko;
     font-size: 20px;
     margin-bottom: 10px;
+    box-shadow:
+    2.8px 2.8px 2.2px rgba(0, 0, 0, 0.055),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.063),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.064),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.062),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.06),
+    100px 100px 80px rgba(0, 0, 0, 0.07)
+  ;
 }
-.slider > .slider-content{
-    display: none;
+.xadata:hover{
+    cursor: pointer;
 }
-hr{
-    display: none;
+.hrtitle{
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+    font-family:'Teko', sans-serif;
+    font-size: 30px;
 }
-.slider{
-    display: none;
-    }

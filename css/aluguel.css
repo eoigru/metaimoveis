@@ -5,11 +5,6 @@
     border-radius: 100px;
     width: 100%;
 }
-.hrtitle{
-    color: white;
-    font-family:'Teko', sans-serif;
-    font-size: 30px;
-}
 .slider{
     overflow: hidden;
     z-index: -1;
@@ -61,22 +56,21 @@ iframe{
     width: 860px;
     height: 400px;
     border-radius: 20px;
+    box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.055),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.063),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.064),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.062),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.06),
+  100px 100px 80px rgba(0, 0, 0, 0.07)
+;
 }
 .descricaoslider{
     width: 54rem ;
     overflow-wrap: break-word;
     font-size: 20px;
 }
-.tabela1{
-    text-align: center;
-    border: 2px solid #8A2BE2;
-    border-collapse: collapse ;
-    font-size: 20px;
-    font-family: ;
-    padding: 10px;
-    border-radius: 10px;
 
-}
 .valor{
     background-color: #8A2BE2;
     color: white;
@@ -84,6 +78,14 @@ iframe{
     border-radius: 10px;
     font-size: 50px;
     font-family: teko;
+    box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.055),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.063),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.064),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.062),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.06),
+  100px 100px 80px rgba(0, 0, 0, 0.07)
+;
 
 }
 .irparadata{
@@ -96,6 +98,7 @@ iframe{
     margin-top: 30px;
     cursor: pointer;
     font-family: teko;
+ 
 }
 .irparadata:hover{
     cursor: pointer;
@@ -103,5 +106,30 @@ iframe{
 
 }
 
+.tabela2{
+    font-family:  teko;
+    font-size: 25px;
+    display: inline-flex;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #a471d4;
+    box-shadow:
+    2.8px 2.8px 2.2px rgba(0, 0, 0, 0.055),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.063),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.064),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.062),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.06),
+    100px 100px 80px rgba(0, 0, 0, 0.07)
+  ;
+}
+.hrtitle{
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+    font-family:'Teko', sans-serif;
+    font-size: 30px;
+}
 
 

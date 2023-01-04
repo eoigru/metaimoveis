@@ -36,3 +36,12 @@
     font-family:'Teko', sans-serif;
     font-size: 30px;
 }
+#data{
+ padding: 10px;
+ border-radius: 20px;
+ width:180px ;
+ height:20px ;
+ color: black;
+ background-color: white;
+ border: solid 2px black;
+}

@@ -153,11 +153,3 @@ body{
     }
 }
 
-@media only screen and (max-width: 440px) {
-    .horizontal-menu>img{
-        width: 160px;
-    }
-    .horizontal-menu i.icone-burguer{
-        top: 34px;
-    }
-}

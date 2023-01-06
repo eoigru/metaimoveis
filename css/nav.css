@@ -93,16 +93,7 @@ body{
     padding-bottom: 0px;
 }
 
-@media screen and (max-width: 320px){
-	.meta{
-        width: 180px;
-        margin-top: 10px;
 
-    }
-    .horizontal-menu{
-        width: 1000px;
-    }
-}
 
 
 

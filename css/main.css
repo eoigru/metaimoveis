@@ -15,6 +15,7 @@ body::-webkit-scrollbar {
     align-items: center;
     justify-content: center;
     margin-top: 0rem ;
+    width: 500px;
 }
 .texto{
     overflow-wrap: break-word;
@@ -42,5 +43,50 @@ body::-webkit-scrollbar {
     background-color:#8A2BE2 ;
     cursor: pointer;
     text-decoration: none ;
+}
+@media screen and (max-width: 320px){
+  .imagem{
+    width: 200px;
+    margin-left: 30px;
+  }
+  .texto{
+    width: 300px;
+    font-size: 20px;
+  }
+  .cadastro{
+    width: 300px;
+    font-size: 30px;
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 375px){
+  .imagem{
+    width: 200px;
+    margin-left: 30px;
+  }
+  .texto{
+    width: 300px;
+    font-size: 20px;
+  }
+  .cadastro{
+    width: 300px;
+    font-size: 30px;
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 425px){
+  .imagem{
+    width: 200px;
+    margin-left: 30px;
+  }
+  .texto{
+    width: 300px;
+    font-size: 20px;
+  }
+  .cadastro{
+    width: 300px;
+    font-size: 30px;
+    padding: 10px;
+  }
 }
 

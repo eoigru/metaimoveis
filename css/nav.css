@@ -1,6 +1,7 @@
 .meta{
     padding: 30px;
     margin-left: 40px;
+    width: 250px;
 }
 .nome1,.nome2{
     font-family: 'Pacifico', cursive;
@@ -92,64 +93,16 @@ body{
     padding-bottom: 0px;
 }
 
-@media only screen and (min-width: 1025px) {
-    .horizontal-menu>ul{
-        display: block !important ;
-    }
-    .horizontal-menu i.icone-burguer{
-        display: none !important;
-    }
-}
-@media only screen and (max-width: 1024px) {
-    .horizontal-menu>ul{
-        height: auto;
-        float: none;
-        display: none;
+@media screen and (max-width: 320px){
+	.meta{
+        width: 180px;
+        margin-top: 10px;
+
     }
     .horizontal-menu{
-        position: relative;
-    }
-    .horizontal-menu i.icone-burguer {
-        position: absolute;
-        top: 43px;
-        right: 31px;
-        font-size: 30px;
-        content: "\e916";
-        color: #fff;
-        font-family: 'toolkit_font' !important;
-        cursor: pointer;
-    }
-    .horizontal-menu>ul>li{
-        display: block;
-        width: 100%;
-        height: auto;
-        line-height: normal;
-        padding: 10px 0px;
-    }
-    .horizontal-menu.type1>ul>li .sub-menu{
-        position: relative;
-        top: initial;
-        left: initial;
-        transform: initial;
-        -moz-transform: initial;
-        -ms-transform: initial;
-        -o-transform: initial;
-        min-width: 0px;
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        box-sizing: border-box;
-        background: transparent;
-        box-shadow: none;
-        padding: 0px;
-    }
-    .horizontal-menu.type1>ul>li .sub-menu li a{
-        color: #fff;
-        padding-bottom: 10px;
-        padding-top: 10px;
-        padding-left: 15px;
-    }
-    .horizontal-menu.type1>ul>li:hover .sub-menu{
-        display: none;
+        width: 1000px;
     }
 }
+
+
 

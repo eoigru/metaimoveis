@@ -16,6 +16,7 @@ body::-webkit-scrollbar {
     justify-content: center;
     margin-top: 0rem ;
     width: 500px;
+    
 }
 .texto{
     overflow-wrap: break-word;
